@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* Smooth body font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header background */
+header {
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+/* Footer style */
+footer {
+  background-color: #212529;
+}
+
+/* Card appearance */
+.card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #0d6efd;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+/* Button hover tweaks */
+.btn-primary:hover, .btn-secondary:hover {
+  opacity: 0.8;
+}
